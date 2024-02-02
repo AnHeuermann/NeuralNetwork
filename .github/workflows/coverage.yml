@@ -39,7 +39,7 @@ jobs:
           omc-diff: true
 
       - name: openmodelica-library-testing
-        uses: AnHeuermann/openmodelica-library-testing-action@empty-tests
+        uses: OpenModelica/openmodelica-library-testing-action@main
         with:
           library: NeuralNetwork
           library-version: '2.0.0'
